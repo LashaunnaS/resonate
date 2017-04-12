@@ -7,16 +7,22 @@ html,body {
 /* Navbar */
 
 .navbar-default {
-    font-size: 15px;
+  font-size: 15px;
   color: white;
-  padding: 10px 2%;
+  padding: 0px 2% 10px 2%;
   border: none;
   background: transparent;
   transition: background-color 0.3s ease 0s;
 }
-.navbar-default .navbar-brand {
-    color: white;
+
+a.navbar-brand {
+    padding: 0 0 0 0;
 }
+
+img {
+    width: 180px;
+}
+
 .navbar-default.after-scroll-nav-border {
   background: rgba(0, 0, 0, .3);
   transition: background-color 0.3s ease 0s;
@@ -24,6 +30,7 @@ html,body {
 
 .navbar-default .navbar-nav>li>a {
   color: white;
+  padding-top: 25px;
 }
 
 .navbar-default .navbar-nav>li>a:hover, 
@@ -75,19 +82,16 @@ text-shadow: none;
     background-color: white;
     color: black;
     padding: 70px 0 0 0;
-    height: 600px;
+    height: 700px;
 }
+
 h2.section-header {
-    margin: 0 0 30px 0;
-    font-size: 40px;
+    margin: 0 0 50px 0;
+    font-size: 30px;
 }
 
 #services1 {
     height: 250px;
-}
-
-#services2 {
-    /*width: 103.1%;*/
 }
 
 hr.light {
@@ -96,7 +100,6 @@ hr.light {
     border-width: 2px;
     max-width: 50px;
 }
-
 
 .serviceDes>p {
     color: gray;
@@ -113,9 +116,9 @@ hr.light {
 }
 
 .section-header>h1 {
-color: black;
-text-align: center;
-padding-bottom: 20px;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .section-header>p {

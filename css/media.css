@@ -1,5 +1,5 @@
 /* Portrait tablets and small desktops */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1879px) {
 /* Services */
   #slide2 {
       background-color: white;
@@ -58,7 +58,7 @@
 }
 
 /* Landscape phones and portrait tablets */
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 /* Header */
     h1 {
         font-size: 36px;
@@ -77,6 +77,7 @@
         padding: 76px 0 0 0;
         height: 800px;
     }
+    
     h2.section-header {
         margin: 0 0 30px 0;
         font-size: 36px;
@@ -119,14 +120,19 @@
       background-color: white;
       color: black;
       padding: 80px 0 0 0;
-      height: 870px;
+      height: 1070px;
       font-size: 14px;
   }
 
   h2.section-header {
       margin: 0 0 30px 0;
-      font-size: 27px;
+      font-size: 32px;
   }
+
+  .serviceDes>p {
+    color: gray;
+    margin-bottom: 20px;
+}
 
 /* About Us */
   #slide3 {
@@ -141,13 +147,17 @@
     font-size: 18px;
   }
 
+  .team-wrapper {
+    text-align: ce
+  }
+
   .team-description {
     padding-bottom: 20px;
   }
 }
 
 /* media query */
-@media (min-width: 600px) and (max-width: 712px) {
+@media (min-width: 654px) and (max-width: 712px) {
 /* Header */
   #slide1 {
       background: no-repeat center fixed; 
@@ -185,12 +195,13 @@
   color: white;
   text-shadow: none;
   }
+
 /* Services */
   #slide2 {
       background-color: white;
       color: black;
       padding: 80px 0 0 0;
-      height: 890px;
+      height: 900px;
       font-size: 14px;
     }
 
@@ -198,7 +209,6 @@
       margin: 0 0 30px 0;
       font-size: 27px;
     }
-
 
 /* About Us */
   #slide3 {
@@ -217,6 +227,9 @@
     padding-bottom: 20px;
     }
   }
+
+/* media query */
+@media (min-width: 600px) and (max-width: 653px) {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
