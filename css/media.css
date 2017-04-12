@@ -1,0 +1,224 @@
+/* Portrait tablets and small desktops */
+@media (min-width: 992px) {
+/* Services */
+  #slide2 {
+      background-color: white;
+      color: black;
+      padding: 70px 0 0 0;
+      height: 750px;
+  }
+
+  h2.section-header {
+      margin: 0 0 30px 0;
+      font-size: 30px;
+  }
+
+  #services2 {
+    width: 103.1%;
+  }
+
+  hr.light {
+      display: block;
+      border-color: black;
+      border-width: 2px;
+      max-width: 50px;
+  }
+
+  .aboutDes>p {
+      color: gray;
+      font-size: 19px;
+      padding: 0;
+  }
+
+/* About Us */
+  #slide3 {
+      background-color: white;
+      color: black;
+      margin-top: 2px;
+      padding-top: 70px;
+      height: 850px;
+  }
+
+  .section-header>h1 {
+  color: black;
+  text-align: center;
+  padding-bottom: 20px;
+  }
+
+  .section-header>p {
+      margin-bottom: 40px;
+      text-align: center;
+      color: gray;
+  }
+
+  .team-description>h5 {
+    margin-bottom: 40px;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 767px) and (max-width: 991px) {
+/* Header */
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    }
+
+/* Services */
+    #slide2 {
+        background-color: white;
+        color: black;
+        padding: 76px 0 0 0;
+        height: 800px;
+    }
+    h2.section-header {
+        margin: 0 0 30px 0;
+        font-size: 36px;
+    }
+
+    hr.light {
+        display: block;
+        border-color: black;
+        border-width: 2px;
+        max-width: 50px;
+    }
+
+    #services1.row, #services2.row {
+        height: 150px;
+    }
+
+    .serviceDes>p {
+        color: gray;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+/* About Us */
+    #slide3 {
+        background-color: white;
+        color: black;
+        margin-top: 2px;
+        padding-top: 70px;
+        height: 1250px;
+
+  }
+
+}
+
+/* media query */
+@media (min-width: 713px) and (max-width: 767px) {
+    
+/* Services */
+  #slide2 {
+      background-color: white;
+      color: black;
+      padding: 80px 0 0 0;
+      height: 870px;
+      font-size: 14px;
+  }
+
+  h2.section-header {
+      margin: 0 0 30px 0;
+      font-size: 27px;
+  }
+
+/* About Us */
+  #slide3 {
+      background-color: white;
+      color: black;
+      margin-top: 2px;
+      padding-top: 70px;
+      height: 1250px;
+  }
+
+  .section-header>p {
+    font-size: 18px;
+  }
+
+  .team-description {
+    padding-bottom: 20px;
+  }
+}
+
+/* media query */
+@media (min-width: 600px) and (max-width: 712px) {
+/* Header */
+  #slide1 {
+      background: no-repeat center fixed; 
+      background-size: cover;
+      background-image: url("https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg");
+      padding-top: 11cm;
+      height: 1010px;
+      text-shadow: 1px 1px 2px #000000;
+  }
+
+
+  h1 {
+      font-size: 50px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  }
+
+  hr {
+      display: block;
+      border-color: white;
+      border-width: 2px;
+      max-width: 50px;
+  }
+
+  p {
+      font-size: 150%;
+      color: rgba(240,240,225,.7);
+  }
+
+  .btn {
+  color: white;
+  text-shadow: none;
+  }
+/* Services */
+  #slide2 {
+      background-color: white;
+      color: black;
+      padding: 80px 0 0 0;
+      height: 890px;
+      font-size: 14px;
+    }
+
+  h2.section-header {
+      margin: 0 0 30px 0;
+      font-size: 27px;
+    }
+
+
+/* About Us */
+  #slide3 {
+      background-color: white;
+      color: black;
+      margin-top: 2px;
+      padding-top: 80px;
+      height: 1250px;
+    }
+
+  .section-header>p {
+    font-size: 18px;
+    }
+
+  .team-description {
+    padding-bottom: 20px;
+    }
+  }
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

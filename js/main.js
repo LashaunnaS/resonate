@@ -1,5 +1,6 @@
 // jQuery for sliding nav
  $(document).ready(function() {
+
       $('a[href*=#]').each(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         && location.hostname == this.hostname
@@ -18,5 +19,32 @@
              });
           }
         }
-      });
+  });
+
+  // change navbar colour
+  var a = $(".container-fluid").offset();
+
+    $(document).scroll(function(){
+      if($(this).scrollTop() > 970)
+      {
+        $('.navbar-default').addClass('after-scroll-nav-border');
+      }
+      else
+      {
+        $('.navbar-default').removeClass('after-scroll-nav-border');
+      }
     });
+
+    // affectthe navbar when scrolling between slides
+    $(document).onscroll = navbarScroll;
+    function navbarScroll () {
+      if ($(this).scrollTop() > 1005) {
+          $('.navbar-default').fadeIn();
+      }
+      else {
+          $('.navbar-default').fadeOut();
+      }
+    }; 
+
+
+});
