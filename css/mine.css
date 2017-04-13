@@ -17,9 +17,6 @@ html,body {
 
 a.navbar-brand {
     padding: 0 0 0 0;
-}
-
-img {
     width: 180px;
 }
 
@@ -82,7 +79,7 @@ text-shadow: none;
     background-color: white;
     color: black;
     padding: 70px 0 0 0;
-    height: 700px;
+    height: 60%;
 }
 
 h2.section-header {
