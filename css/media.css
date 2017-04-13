@@ -1,17 +1,16 @@
 /* Portrait tablets and small desktops */
-@media (min-width: 992px) and (max-width: 1879px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 
-  /* Header */
-#slide1 {
-    height: 1040px;
-}
+/* Header */
+  #slide1 {
+    height: 940px;
+  }
 
 /* Services */
   #slide2 {
       background-color: white;
       color: black;
       padding: 70px 0 0 0;
-      /*height: 750px;*/
   }
 
   h2.section-header {
@@ -61,27 +60,32 @@
     margin-bottom: 40px;
   }
 
+  /* Contact */
+  .name, .email, .num {
+    margin-left: 55%;
+}
+
+  .msg {
+    /*margin-left: 20%;*/
+  }
+  .num {
+    margin-bottom: 26px;
+  }
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 768px) and (max-width: 991px) {
 /* Header */
-    h1 {
-        font-size: 36px;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-top: 0;
-        margin-bottom: 0;
-        color: white;
-        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    }
+  #slide1 {
+      height: 1100px;
+  }
 
 /* Services */
     #slide2 {
         background-color: white;
         color: black;
         padding: 76px 0 0 0;
-        /*height: 800px;*/
     }
     
     h2.section-header {
@@ -118,10 +122,23 @@
   .team-description>h5 {
     margin-bottom: 40px;
   }
+
+  /* Contact */
+  .name, .email, .num {
+    margin-left: 55%;
+}
+  .num {
+    margin-bottom: 26px;
+  }
 }
 
 /* media query */
 @media (min-width: 713px) and (max-width: 767px) {
+
+  /* Header */
+#slide1 {
+  height: 1100px;
+}
     
 /* Services */
   #slide2 {
@@ -148,57 +165,39 @@
       color: black;
       margin-top: 2px;
       padding-top: 70px;
-      height: 1250px;
+      height: 2270px;
   }
 
   .section-header>p {
     font-size: 18px;
   }
 
+  img.img-responsive {
+    width: 500px;
+    margin: 0 15%;
+  }   
+
+  .team-description {
+    margin: 0 15% 40px 20%;
+  }
+
   .team-description>h5 {
-    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  /* Contact */
+  .num {
+    margin-bottom: 26px;
   }
 
 }
 
 /* media query */
 @media (min-width: 654px) and (max-width: 712px) {
+
 /* Header */
   #slide1 {
-      background: no-repeat center fixed; 
-      background-size: cover;
-      background-image: url("https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg");
-      padding-top: 11cm;
-      height: 1010px;
-      text-shadow: 1px 1px 2px #000000;
-  }
-
-
-  h1 {
-      font-size: 50px;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-top: 0;
-      margin-bottom: 0;
-      color: white;
-      font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  }
-
-  hr {
-      display: block;
-      border-color: white;
-      border-width: 2px;
-      max-width: 50px;
-  }
-
-  p {
-      font-size: 150%;
-      color: rgba(240,240,225,.7);
-  }
-
-  .btn {
-  color: white;
-  text-shadow: none;
+    height: 1100px;
   }
 
 /* Services */
@@ -221,57 +220,32 @@
       color: black;
       margin-top: 2px;
       padding-top: 80px;
-      height: 1250px;
+      height: 2280px;
     }
 
   .section-header>p {
     font-size: 18px;
     }
 
+  img.img-responsive {
+    margin: 0 10%;
+  }   
+
   .team-description {
-    padding-bottom: 20px;
-    }
+    margin: 0 15% 40px 20%;
   }
+
+  .team-description>h5 {
+    font-size: 18px;
+  }
+
 
 /* media query */
 @media (min-width: 612px) and (max-width: 653px) {
 
   /* Header */
   #slide1 {
-      background: no-repeat center fixed; 
-      background-size: cover;
-      background-image: url("https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg");
-      padding-top: 11cm;
-      height: 1010px;
-      text-shadow: 1px 1px 2px #000000;
-  }
-
-
-  h1 {
-      font-size: 50px;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-top: 0;
-      margin-bottom: 0;
-      color: white;
-      font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-  }
-
-  hr {
-      display: block;
-      border-color: white;
-      border-width: 2px;
-      max-width: 50px;
-  }
-
-  p {
-      font-size: 150%;
-      color: rgba(240,240,225,.7);
-  }
-
-  .btn {
-  color: white;
-  text-shadow: none;
+    height: 1100px;
   }
 
 /* Services */
@@ -279,7 +253,6 @@
       background-color: white;
       color: black;
       padding: 80px 0 0 0;
-      /*height: 1200px;*/
       font-size: 14px;
     }
 
@@ -301,10 +274,19 @@
     font-size: 18px;
     }
 
+  img.img-responsive {
+    width: 400px;
+    margin: 0 5%;
+  }   
+
   .team-description {
-    padding-bottom: 20px;
-    }
+    margin: 0 15% 40px 20%;
   }
+
+  .team-description>h5 {
+    font-size: 18px;
+  }
+}
 
 /* media query */
 @media (min-width: 570px) and (max-width: 611px) {
