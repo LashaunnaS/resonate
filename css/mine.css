@@ -165,6 +165,7 @@ hr {
 input[type="submit"]:hover {
     background: #ffffff;
     color: #0C9AFF;
+    transition: 0.2s;
 }
 
 /* Footer */
