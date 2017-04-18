@@ -25,7 +25,7 @@
   var a = $(".container-fluid").offset();
 
     $(document).scroll(function(){
-      if($(this).scrollTop() > 750)
+      if($(this).scrollTop() > 785)
       {
         $('.navbar-default').addClass('after-scroll-nav-border');
       }
