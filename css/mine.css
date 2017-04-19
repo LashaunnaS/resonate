@@ -85,6 +85,11 @@ header p {
     margin-bottom: 4vh;
 }
 
+a {
+     color: white; 
+    text-decoration: none;
+}
+
 a.btn {
 background-color: #0C9AFF;
 text-shadow: none;
@@ -93,8 +98,15 @@ border-radius: 4px;
 }
 
 a.btn:hover, .btn:focus {
-    background: #ffffff;
+    background-color: #ffffff;
     color: #0C9AFF;
+    border: none;
+    transition: 0.2s;
+}
+
+a.btn.active {
+    background-color: #0C9AFF;
+    color: white;
     border: none;
     transition: 0.2s;
 }
@@ -105,13 +117,6 @@ a.btn.active:hover {
     border: none;
     transition: 0.2s;
 }
-a.btn.active {
-    background-color: #0C9AFF;
-    color: white;
-    border: none;
-    transition: 0.2s;
-}
-
 
 /* Services */
  #slide2 {
