@@ -28,14 +28,12 @@
       if($(this).scrollTop() > 780)
       {
        $('.navbar-default').addClass('after-scroll-nav-border');
-       $(".navbar-nav a").css('color', 'white');
-       $('.navbar-brand img').attr('src', 'images/logo-white.png')
+       
       }
       else
       {
         $('.navbar-default').removeClass('after-scroll-nav-border');
-        $('.navbar-nav a').css('color', 'black');
-        $('.navbar-brand img').attr('src', 'images/logo.svg')
+       
       }
     });
 
@@ -49,6 +47,5 @@
           $('.navbar-default').fadeOut();
       }
     }; 
-
 
 });
