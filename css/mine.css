@@ -82,31 +82,34 @@ header p {
     margin-bottom: 4vh;
 }
 
-.btn {
-color: white;
+a.btn {
+appearance: button;
 background-color: #0C9AFF;
 text-shadow: none;
 letter-spacing: 2px;
-border-radius: 6px;
+border-radius: 4px;
 }
 
-.btn:hover {
+a.btn:hover, .btn:focus {
     background: #ffffff;
     color: #0C9AFF;
     border: none;
     transition: 0.2s;
 }
 
-.btn-info.active, .btn-info:active, .open>.dropdown-toggle.btn-info {
-    background-color: #0C9AFF; 
-    border-color: #0C9AFF;
+a.btn.active:hover {
+    background-color: white;
+    color: #0C9AFF;
+    border: none;
+    transition: 0.2s;
+}
+a.btn.active {
+    background-color: #0C9AFF;
+    color: white;
+    border: none;
+    transition: 0.2s;
 }
 
-.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover {
-    color: #0C9AFF; 
-    background-color: white;
-    border-color: #0C9AFF;
-}
 
 /* Services */
  #slide2 {
