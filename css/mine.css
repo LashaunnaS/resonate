@@ -42,6 +42,11 @@ a.navbar-brand {
     
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #0C9AFF;
+    background-color: transparent; 
+}
+
 .slide {
     height:100vh;
 }
