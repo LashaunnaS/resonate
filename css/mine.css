@@ -126,14 +126,22 @@ a.btn.active:hover {
     height: 100vh;
 }
 
+.service-header, .services {
+    text-align: center;
+}
+
 h2.section-header {
     margin: 3vh 0 6vh 0;
     font-size: 2.7vw;
 }
 
-.row #services{
-    margin-right: 0;
-    width: 100%;
+.row.services{
+    margin-bottom: 8vh;
+    max-width: 100%;
+}
+
+.row.services {
+   margin-left: 0px;
 }
 
 hr.light {
