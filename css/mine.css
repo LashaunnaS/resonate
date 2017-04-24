@@ -32,7 +32,7 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav a {
   color: black;
-  padding-top: 3vh;
+  padding-top: 4vh;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ header p {
 }
 
 a {
-     color: white; 
+    color: white; 
     text-decoration: none;
 }
 
