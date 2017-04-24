@@ -1,3 +1,117 @@
+@media only screen and (max-width : 2560px) {
+    /* Navbar */
+.navbar-default {
+    font-size: 1.4vw;
+}
+
+a.navbar-brand {
+    width: 17vw;
+}
+
+.navbar-default .navbar-nav a {
+  color: black;
+  padding-top: 8vh;
+  text-decoration: none;
+}
+     /* Header */
+#slide1 {
+    padding-top: 33vh;
+  }
+
+header p {
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 1.5vw;
+    margin-bottom: 8vh;
+}
+
+a.btn {
+    box-shadow: 0px 2px 2px #FFFFFF;
+    font-size: 0.8vw;
+    border-radius: 6px;
+    margin: 2vh;
+    padding: 1.3vh 5vw;
+}
+
+    /* Services */
+    #slide2 {
+    padding: 200px 0 0 0;
+    height: 140vh;
+}
+
+h2.section-header {
+    font-size: 3vw;
+    font-weight: 300;
+    margin: 0 0 5vh 0;
+}
+
+hr.light {
+    height: 6vh;
+}
+
+.content.container {
+    padding: 0;
+}
+
+#services {
+  margin-bottom: 0px;
+}
+
+.serviceDes>p {
+    margin-bottom: 9vh;
+}
+
+/* About Us */
+ #slide3 {
+    padding-top: 200px;
+}
+
+.section-header>p {
+    font-size: 1.3vw;
+}
+
+.team-description>h3 {
+    font-size: 1.5vw;
+}
+
+.team-description>h5 {
+    font-size: 1vw;
+}
+
+/* Contact */
+ #slide4 {
+    padding-top: 200px;
+}
+
+#contact>h2 {
+    font-size: 2vw;
+}
+
+#contact>p {
+    font-size: 1.2vw;
+}
+
+.name, .email, .num {
+    font-size: 1vw;
+    margin-top: 3vh; 
+    margin-bottom: 3.1vh;
+}
+
+.msg {
+    font-size: 0.8vw;
+}
+
+.submit {
+    font-size: 0.7vw;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 0.8vw;
+}
+}
+
 @media only screen and (max-width : 1024px) {
 /* Navbar */
 .navbar-default {
