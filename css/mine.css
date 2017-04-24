@@ -154,6 +154,10 @@ hr.light {
     height: 9vh;
 }
 
+.serviceDes>h4 {
+    font-size: 1.2vw;
+}
+
 .serviceDes>p {
     color: gray;
     margin-bottom: 3vh;
