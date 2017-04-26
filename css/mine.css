@@ -12,16 +12,17 @@ html,body {
 
 /* Navbar */
 .navbar-default {
-  font-size: 1vw;
-  padding: 0px 2% 0px 2%;
+  font-size: 1.3em;
+  padding: 0vh 1vw;
   border: none;
   background: white;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   transition: background-color 0.3s ease 0s;
 }
 
 a.navbar-brand {
-    padding: 0 0 0 0;
-    width: 12vw;
+    padding: 0;
+    width: 13vw;
     height: auto;
 }
 
@@ -38,7 +39,6 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav>li>a {
     color: black;
-
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -50,45 +50,36 @@ a.navbar-brand {
     background-color: transparent; 
 }
 
-
 /* Header */
 #slide1 {
     background: no-repeat center fixed; 
     background-size: cover;
     background-image: url('../images/header.jpeg');
-    padding-top: 10cm;
+    padding-top: 40vh;
     text-shadow: 1px 1px 2px #000000;
 }
 
 h1 {
-    font-size: 4vw;
+    color: white;
+    font-size: 4em;
     font-weight: 700;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #000000;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: white;
 }
 
 hr {
-    display: block;
     border-color: white;
-    border-width: 2px;
-    max-width: 50px;
 }
 
 header p {
+    font-size: 1.6em;
     text-shadow: 2px 2px 2px #000000;
-    font-size: 150%;
     margin-bottom: 4vh;
 }
 
-a {
+a.btn {
     color: white; 
     text-decoration: none;
-}
-
-a.btn {
     box-shadow: 0 0 2px #FFFFFF;
     background-color: #29b6f6;
     text-shadow: none;
@@ -124,7 +115,7 @@ a.btn.active:hover {
  #slide2 {
     background-color: white;
     color: black;
-    padding: 90px 0 0 0;
+    padding-top: 12vh;
     height: 100vh;
 }
 
@@ -133,35 +124,27 @@ a.btn.active:hover {
 }
 
 h2.section-header {
-    margin: 3vh 0 6vh 0;
-    font-size: 2.7vw;
+    margin: 3vh 0 8vh 0;
+    font-size: 3em;
 }
 
 .row.services{
     margin-bottom: 8vh;
-    max-width: 100%;
-}
-
-.row.services {
-   margin-left: 0vw;
 }
 
 hr.light {
-    display: block;
     border-color: black;
-    border-width: 2px;
-    max-width: 50px;
-    height: 9vh;
+    margin-bottom: 10vh;
 }
 
 .serviceDes>h4 {
-    font-size: 1.2vw;
+    font-size: 1.4em;
 }
 
 .serviceDes>p {
     color: gray;
     margin-bottom: 3vh;
-    font-size: 1.1vw;
+    font-size: 1.3em;
 }
 
 /* About Us */
@@ -169,39 +152,56 @@ hr.light {
     background-color: white;
     color: black;
     margin-top: 0.5vh;
-    padding-top: 70px;
+    padding-top: 10vh;
 }
 
 .section-header>h1 {
     color: black;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 1vh;
 }
 
 .section-header>p {
-    margin-bottom: 6vh;
+    font-size: 1.6em;
+    margin-bottom: 4vh;
     text-align: center;
     color: gray;
 }
 
+.team-description>h5 {
+    font-size: 1.2em;
+}
+
 /* Contact */
  #slide4 {
+    background: no-repeat center fixed; 
+    background-size: cover;
+    background-image: url('../images/contact.jpeg');
     background-color: white;
     color: black;
     margin-top: 0.5vh;
-    padding-top: 70px;
+    padding-top: 8vh;
     height: 97vh;
+}
+
+.contact.jumbotron {
+     margin-top: 6vh;
+    background-color: rgba(255, 255, 255,0.8);
+}
+
+#contact>h2 {
+    font-size: 3.5em;
 }
 
 hr {
     display: block;
     border-color: black;
-    border-width: 2px;
-    max-width: 50px;
+    border-width: 0.2vw;
+    max-width: 3vw;
 }
 
 #contact>p {
-    color: black;
+    font-size: 1.3em;
     margin-top: 5vh;
     margin-bottom: 7vh;
 }
@@ -228,9 +228,11 @@ input[type="submit"]:hover {
 }
 
 /* Footer */
-
 footer {
+    margin-top: 0.5vh;
+    text-align: center;
     background-color: white;
     color: black;
+    font-size: 1em;
 }
  
