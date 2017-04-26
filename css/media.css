@@ -1,82 +1,34 @@
-@media only screen and (max-width : 1024px) {
-/* Navbar */
-.navbar-default {
-  font-size: 1.5vw;
+@media only screen and (max-width : 1440px) {
+/* Services */
+#slide2 {
+    height: 105vh;
 }
+
+/* About Us */
+#slide3 {
+   height: 110vh;
+}
+
+/* Footer */
+footer {
+    padding-top: 1vh;
+    font-size: 1em;
+}
+}
+
+@media only screen and (max-width : 1024px) {
+ /* Navbar */
+ .navbar-default {
+    font-size: 1.3em;
+    width: 100vw;
+ }
 
 a.navbar-brand {
     width: 17vw;
 }
 
 .navbar-default .navbar-nav a {
-  padding-top: 3vh;
-}
-
-/* Header */
-#slide1 {
-    padding-top: 40vh;
-  }
-
-header p {
-    margin-bottom: 10vh;
-    font-size: 1.8vw;
-}
-
-a.btn {
-    font-size: 1vw;
-    border-radius: 6px;
-    margin: 2vh;
-    padding: 1.3vh 5vw;
-}
-
-/* Services */
-#slide2 {
-    height: 100vh;
-}
-
-h2.section-header {
-    font-size: 4vw;
-    font-weight: 300;
-    margin: 0 0 5vh 0;
-}
-
-hr.light {
-    height: 6vh;
-}
-
-.serviceDes>h4 {
-    font-size: 1.8vw;
-}
-
-.serviceDes>p {
-    font-size: 1.6vw;
-    margin-bottom: 9vh;
-}
-
-/* About Us */
-#slide3 {
-   height: 100vh;
-}
-
-.section-header>p {
-  font-size: 2vw;
-}
-
-.team-description {
-    padding-bottom: 2vh;
-}
-}
-
-
-@media only screen and (max-width : 768px) {
- /* Navbar */
- .navbar-default {
-    font-size: 2vw;
-    width: 100vw;
- }
-
-a.navbar-brand {
-    width: 20vw;
+  padding-top: 3.6vh;
 }
 
 /* Header */
@@ -85,25 +37,30 @@ a.navbar-brand {
   }
 
 h1 {
-    font-size: 7vw;
+    font-size: 3.5em;
 }
 
 header p {
+    font-size: 1.5em;
     margin-bottom: 7vh;
+}
+
+a.btn {
+    font-size: 1em;
 }
 
 /* Services */
 #slide2 {
-    height: 115vh;
+    height: 95vh;
 }
 
 h2.section-header {
-    font-size: 5vw;
+    font-size: 2.4em;
     margin: 0 0 5vh 0;
 }
 
 hr.light {
-    height: 4vh;
+    margin-bottom: 6vh;
 }
 
 #services1 {
@@ -118,13 +75,10 @@ hr.light {
 #slide3 {
    margin-top: 0.5vh; 
    padding-top: 10vh;
-   height: 175vh;
 }
 
-
-
 .section-header>p {
-  font-size: 2vw;
+  font-size: 1.3em;
 }
 
 .team-description {
@@ -134,20 +88,133 @@ hr.light {
 /* Contact */
 #slide4 {
     margin-top: 0.5vh;
-    padding-top: 9rem;
-    height: 97vh;
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.contact.jumbotron {
+    margin: 3vh 0vw;
+    background-color: rgba(255, 255, 255,0.8);
 }
 
 .name, .email, .num, .msg {
     margin-top: 3vh; 
     margin-bottom: 3.2vh;
 }
+
+/* Footer */
+footer {
+    padding-top: 1vh;
+    font-size: 1em;
+}
+
+.footContent {
+    padding-left: 0;
+}
+
+footer p {
+    float: left;
+}
+}
+
+@media only screen and (max-width : 768px) {
+ /* Navbar */
+ .navbar-default {
+    font-size: 1.3em;
+    width: 100vw;
+ }
+
+a.navbar-brand {
+    width: 20vw;
+}
+
+.navbar-default .navbar-nav a {
+  padding-top: 3vh;
+}
+
+/* Header */
+#slide1 {
+    padding-top: 36vh;
+  }
+
+h1 {
+    font-size: 3.5em;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 7vh;
+}
+
+a.btn {
+    font-size: 1em;
+}
+
+/* Services */
+#slide2 {
+    height: 105vh;
+}
+
+h2.section-header {
+    font-size: 2.4em;
+    margin: 0 0 5vh 0;
+}
+
+hr.light {
+    margin-bottom: 6vh;
+}
+
+#services1 {
+    margin-bottom: 1vh;
+}
+
+#services2 {
+    position: absolute;
+  }
+
+/* About Us */
+#slide3 {
+   margin-top: 0.5vh; 
+   padding-top: 10vh;
+   height: 177vh;
+}
+
+.section-header>p {
+  font-size: 1.3em;
+}
+
+.team-description {
+    padding-bottom: 2vh;
+}
+
+/* Contact */
+#slide4 {
+    margin-top: 0.5vh;
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.contact.jumbotron {
+    margin: 3vh 0vw;
+    background-color: rgba(255, 255, 255,0.8);
+}
+
+.name, .email, .num, .msg {
+    margin-top: 3vh; 
+    margin-bottom: 3.2vh;
+}
+
+/* Footer */
+footer {
+    padding-top: 1vh;
+    font-size: 1em;
+}
 }
 
 @media only screen and (max-width : 425px) {
 /* Navbar */
 .navbar-default {
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 a.navbar-brand {
@@ -160,37 +227,37 @@ a.navbar-brand {
 
 /* Header */
 #slide1 {
-   background-image: url('../images/pic.jpeg');
+   background-image: url('../images/header2.jpeg');
     padding-top: 33vh;
     height: 105vh;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2.5em;
 }
 
 header p {
-    font-size: 20px;
+    font-size: 1.4em;
     margin-bottom: 5vh;
 }
 
 a.btn {
-    font-size: 12px;
+    font-size: 1em;
 }
 /* Services */
 #slide2 {
-    padding-top: 10vh;
-    height: 140vh;
+    padding-top: 13vh;
+    height: 147vh;
 }
 
 h2.section-header {
-    font-size: 22px;
+    font-size: 1.6em;
     font-weight: 300;
     margin: 0 0 5vh 0;
 }
 
 hr.light {
-    margin-bottom: 2vh
+    margin-bottom: 2vh;
 }
 
 .row.services{
@@ -198,13 +265,13 @@ hr.light {
 }
 
 .serviceDes>h4 {
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .serviceDes>p {
     color: gray;
     margin-bottom: 3vh;
-    font-size: 14px;
+    font-size: 1.1em;
     padding: 0 5vw;
 }
 
@@ -212,163 +279,63 @@ hr.light {
 #slide3 {
    margin-top: 0.5vh; 
    padding-top: 10vh;
-   height: 285vh;
+   height: 280vh;
 }
 
 .section-header>h1 {
-    font-size: 9vw;
+    font-size: 2.7em;
 }
 
 .section-header>p {
     margin-bottom: 6vh;
-    font-size: 5vw;
+    font-size: 1.3em;
 }
 
 .team-description>h3 {
-    font-size: 25px;
+    font-size: 2em;
 }
 
 .team-description>h5 {
-    font-size: 17px;
+    font-size: 1.2em;
 }
 
 /* Contact */
 #slide4 {
     margin-top: 0.5vh;
     padding-top: 10vh;
-    height: 100vh;
+    height: 107vh;
+}
+
+.contact.jumbotron {
+    margin: 4vh 0vw;
+    background-color: rgba(255, 255, 255,0.8);
 }
 
 #contact>h2 {
-    font-size: 30px;
+    font-size: 2.2em;
 }
 
 #contact>p {
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .name, .email, .num, .msg, .submit {
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 /* Footer */
 footer {
-    font-size: 10px;
+    padding-top: 1vh;
+    font-size: 0.8em;
     text-align: center;
 }
 }
 
 @media only screen and (max-width : 375px) {
-/* Header */
-#slide1 {
-    background-image: url('../images/pic.jpeg');
-    padding-top: 33vh;
-    height: 105vh;
-}
 
-h1 {
-    font-size: 30px;
-}
-
-header p {
-    font-size: 20px;
-    margin-bottom: 5vh;
-}
-
-a.btn {
-    font-size: 12px;
-}
-
-/* Services */
-#slide2 {
-    padding-top: 10vh;
-    height: 147vh;
-}
-
-h2.section-header {
-    font-size: 28px;
-    font-weight: 300;
-    margin: 0 0 5vh 0;
-}
-
-hr.light {
-    margin-bottom: 2vh
-}
-
-.row.services{
-    margin-bottom: 3vh;
-}
-
-.serviceDes>h4 {
-    font-size: 16px;
-}
-
-.serviceDes>p {
-    color: gray;
-    margin-bottom: 3vh;
-    font-size: 14px;
-    padding: 0 5vw;
-}
-
-/* About Us */
-#slide3 {
-   margin-top: 0.5vh; 
-   padding-top: 10vh;
-   height: 255vh;
-}
-
-.section-header>h1 {
-    font-size: 40px;
-}
-
-.section-header>p {
-    font-size: 16px;
-}
-
-.team-description>h3 {
-    font-size: 25px;
-}
-
-.team-description>h5 {
-    font-size: 17px;
-    margin-bottom: 3vh;
-}
-
-/* Contact */
- #slide4 {
-    margin-top: 0.5vh;
-    padding-top: 8vh;
-    height: 100vh;
-}
-
-#contact>h2 {
-    font-size: 30px;
-}
-
-#contact>p {
-    font-size: 16px;
-}
-
-.name, .email, .num, .msg, .submit {
-    font-size: 12px;
-}
-
-/* Footer */
-footer {
-    font-size: 10px;
-    text-align: center;
-}
-}
-
-
-@media only screen and (max-width : 320px) {
 /* Navbar */
-.navbar-default {
-    font-size: 20px;
-}
-
-a.navbar-brand {
-    width: 40vw;
+.navbar-toggle.collapsed  {
+    margin-top: 1.6vh;
 }
 
 /* Header */
@@ -379,26 +346,26 @@ a.navbar-brand {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2.3em;
 }
 
 header p {
-    font-size: 20px;
+    font-size: 1.4em;
     margin-bottom: 5vh;
 }
 
 a.btn {
-    font-size: 12px;
+    font-size: 1em;
 }
 
 /* Services */
 #slide2 {
     padding-top: 10vh;
-    height: 150vh;
+    height: 152vh;
 }
 
 h2.section-header {
-    font-size: 22px;
+    font-size: 1.8em;
     font-weight: 300;
     margin: 0 0 5vh 0;
 }
@@ -412,13 +379,13 @@ hr.light {
 }
 
 .serviceDes>h4 {
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .serviceDes>p {
     color: gray;
     margin-bottom: 3vh;
-    font-size: 14px;
+    font-size: 1em;
     padding: 0 5vw;
 }
 
@@ -426,48 +393,175 @@ hr.light {
 #slide3 {
    margin-top: 0.5vh; 
    padding-top: 10vh;
-   height: 225vh;
+   height: 257vh;
 }
 
 .section-header>h1 {
-    font-size: 40px;
+    font-size: 2.6em;
 }
 
 .section-header>p {
-    font-size: 16px;
+    font-size: 1.4em;
 }
 
 .team-description>h3 {
-    font-size: 25px;
+    font-size: 2em;
 }
 
 .team-description>h5 {
-    font-size: 17px;
+    font-size: 1.2em;
+    margin-bottom: 3vh;
 }
-
 
 /* Contact */
  #slide4 {
     margin-top: 0.5vh;
-    padding-top: 8vh;
-    height: 103vh;
+    padding-top: 5vh;
+    height: 106vh;
+}
+
+.contact.jumbotron {
+    margin: 5vh 0vw;
+    background-color: rgba(255, 255, 255,0.8);
 }
 
 #contact>h2 {
-    font-size: 30px;
+    font-size: 2.3em;
 }
 
 #contact>p {
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .name, .email, .num, .msg, .submit {
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 /* Footer */
 footer {
-    font-size: 10px;
+    padding-top: 1vh;
+    font-size: 0.6em;
+    text-align: center;
+}
+}
+
+
+@media only screen and (max-width : 320px) {
+/* Navbar */
+.navbar-default {
+    font-size: 1.5em;
+}
+
+a.navbar-brand {
+    width: 40vw;
+}
+
+.navbar-toggle.collapsed  {
+    margin-top: 1.5vh;
+}
+
+/* Header */
+#slide1 {
+    background-image: url('../images/header2.jpeg');
+    padding-top: 33vh;
+    height: 105vh;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+header p {
+    font-size: 1.4em;
+    margin-bottom: 5vh;
+}
+
+a.btn {
+    font-size: 1em;
+}
+
+/* Services */
+#slide2 {
+    padding-top: 10vh;
+    height: 153vh;
+}
+
+h2.section-header {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 0 0 5vh 0;
+}
+
+hr.light {
+    margin-bottom: 2vh;
+}
+
+.row.services{
+    margin-bottom: 3vh;
+}
+
+.serviceDes>h4 {
+    font-size: 1.1em;
+}
+
+.serviceDes>p {
+    color: gray;
+    margin-bottom: 3vh;
+    font-size: 1em;
+    padding: 0 5vw;
+}
+
+/* About Us */
+#slide3 {
+   margin-top: 0.5vh; 
+   padding-top: 10vh;
+   height: 227vh;
+}
+
+.section-header>h1 {
+    font-size: 2.5em;
+}
+
+.section-header>p {
+    font-size: 1.3em;
+}
+
+.team-description>h3 {
+    font-size: 2em;
+}
+
+.team-description>h5 {
+    font-size: 1.2em;
+}
+
+/* Contact */
+ #slide4 {
+    margin-top: 0.5vh;
+    padding-top: 5vh;
+    height: 110vh;
+}
+
+.contact.jumbotron {
+    margin: 5vh 0vw;
+    background-color: rgba(255, 255, 255,0.8);
+}
+
+#contact>h2 {
+    font-size: 2em;
+}
+
+#contact>p {
+    font-size: 1.3em;
+}
+
+.name, .email, .num, .msg, .submit {
+    font-size: 0.8em;
+}
+
+/* Footer */
+footer {
+    padding-top: 1vh;
+    font-size: 0.6em;
     text-align: center;
 }
 }
