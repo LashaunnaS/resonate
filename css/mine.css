@@ -229,9 +229,8 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-    margin-top: 0.5vh;
     text-align: center;
-    background-color: white;
+    background-color: #d5e9e6;
     color: black;
     font-size: 1em;
 }
