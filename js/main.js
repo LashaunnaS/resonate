@@ -37,7 +37,7 @@
       }
     });
 
-    // affect the navbar when scrolling between slides
+    // affect the navbar fade when scrolling between slides
     $(document).onscroll = navbarScroll;
     function navbarScroll () {
       if ($(this).scrollTop() > 1005) {
@@ -47,7 +47,6 @@
           $('.navbar-default').fadeOut();
       }
     }; 
-
   
 
     });
