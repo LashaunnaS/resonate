@@ -3,11 +3,10 @@ html,body {
     color: white;
     background-color:#d5e9e6;
     font-family: 'futura-pt', sans-serif;
-    position: relative;
 }
 
 .slide {
-    height:100vh;
+    height: 100vh;
 }
 
 /* Navbar */
@@ -33,7 +32,7 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav a {
   color: black;
-  padding-top: 1.7em;
+  padding-top: 1.5em;
   text-decoration: none;
 }
 
@@ -55,7 +54,7 @@ a.navbar-brand {
     background: no-repeat center fixed; 
     background-size: cover;
     background-image: url('../images/header.jpeg');
-    padding-top: 25em;
+    padding-top: 38vh;
     text-shadow: 1px 1px 2px #000000;
 }
 
@@ -120,7 +119,8 @@ a.btn.active:hover {
  #slide2 {
     background-color: white;
     color: black;
-    padding-top: 12vh;
+    padding-top: 10vh;
+    height: 100%;
 }
 
 .service-header, .services {
@@ -128,7 +128,7 @@ a.btn.active:hover {
 }
 
 h2.section-header {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
@@ -162,6 +162,7 @@ hr.service {
     color: black;
     margin-top: 0.4em;
     padding-top: 10vh;
+    height: auto;
 }
 
 .section-header>h1 {
@@ -189,10 +190,11 @@ hr.service {
     background-color: white;
     color: black;
     margin-top: 0.4em;
+    height: auto;
 }
 
 .contact.jumbotron {
-    margin-top: 11em;
+    margin-top: 18vh;
     background-color: rgba(255, 255, 255,0.8);
 }
 
